@@ -3,33 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Resume</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Elisa Das - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        h1, h2, h3 {
+            margin-top: 0;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .summary {
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+        .work-item, .education-item {
+            margin-bottom: 10px;
+        }
+        .skills-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills-list li {
+            margin-bottom: 5px;
+        }
+    </style>
 </head>
 <body>
-    <header>
+    <div class="container">
         <h1>Elisa Das</h1>
-        <p>Web Developer</p>
-    </header>
-    <section class="about">
-        <h2>About Me</h2>
-        <p>Dynamic, adaptable professional committed to excellence and continuous improvement.</p>
-    </section>
-    <section class="experience">
-        <h2>Experience</h2>
-        <ul>
-            <li>Frontend Developer, ABC Company (2020-present)</li>
-            <li>Web Designer, XYZ Agency (2018-2020)</li>
-        </ul>
-    </section>
-    <section class="education">
-        <h2>Education</h2>
-        <ul>
-            <li>Bachelor of Science in Computer Science, University of ABC (2014-2018)</li>
-        </ul>
-    </section>
-    <footer>
-        <p>Contact: elisa@example.com | Phone: 9876543210</p>
-    </footer>
+        <p class="summary">Experienced Marketing Professional with a passion for digital marketing and brand strategy.</p>
+        
+        <div class="section">
+            <h2>Contact Information</h2>
+            <p>Email: elisa.das@example.com</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>LinkedIn: linkedin.com/in/elisadas</p>
+            <p>Portfolio: elisadas.com</p>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>University of Marketing</h3>
+                <p>Bachelor of Business Administration in Marketing</p>
+                <p>Graduated: May 2015</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Work Experience</h2>
+            <div class="work-item">
+                <h3>Senior Marketing Manager - Marketing Agency</h3>
+                <p>June 2015 - Present</p>
+                <ul>
+                    <li>Developed and implemented comprehensive marketing strategies for clients in various industries.</li>
+                    <li>Managed a team of marketing professionals and coordinated cross-functional projects.</li>
+                </ul>
+            </div>
+            <div class="work-item">
+                <h3>Marketing Specialist - Tech Startup</h3>
+                <p>Summer 2014</p>
+                <ul>
+                    <li>Executed digital marketing campaigns across social media platforms and email newsletters.</li>
+                    <li>Analyzed marketing data and metrics to optimize campaign performance and ROI.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>Digital Marketing</li>
+                <li>Brand Strategy</li>
+                <li>Social Media Marketing</li>
+                <li>Email Marketing</li>
+                <li>Marketing Analytics</li>
+                <li>Project Management</li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
